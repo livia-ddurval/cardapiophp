@@ -1,0 +1,86 @@
+
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+body{
+    background-image: url(../image/pexels-adonyi-gábor-1414651.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 550px;
+}
+
+
+div{
+    width: 220px;
+    height: 350px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.semana{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+.verde{
+    background-color: rgba(84, 168, 53, 0.732);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 4px;
+}
+.amarelo{
+    width: 220px;
+    background-color: rgba(214, 214, 95, 0.733);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 4px;
+    
+}
+.semana{
+    width: 210px;
+    border-bottom: 1px solid;
+    
+}
+.food{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    
+}
+
+li{
+    list-style: none;
+    margin: 5px;
+}
